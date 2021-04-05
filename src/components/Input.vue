@@ -22,37 +22,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.input-container {
-    border-bottom: 1px solid rgb(148, 148, 148);
-    position: relative;
-    height: 1.75vh;
-}
-
-input {
-    border: none;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-input:focus {
-    border: none;
-    outline: 0;
-}
-
-label {
-    position: absolute;
-    top: 25%;
-    font-size: 13px;
-    left: 3%;
-    transition: all 0.4s ease;
-}
-
-input:focus + label, input:valid + label {
-    position: absolute;
-    top: -40%;
-    left: 0;
-    font-size: 8px;
-}
-</style>
+ <style lang="scss" scoped>
+ @import '../css/Input.scss';
+ </style>

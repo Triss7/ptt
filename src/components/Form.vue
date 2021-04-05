@@ -49,7 +49,9 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
+@import '../css/variables.scss';
+
 .form-container {
     display: flex;
     flex-direction: column;
@@ -59,5 +61,6 @@ export default {
     padding: 2vw;
     border: 1px solid rgb(165, 165, 165);
     box-shadow: 2px 1px 0.4em rgba(128, 128, 128, 0.6);
+    background-color: $secondary;
 }
 </style>

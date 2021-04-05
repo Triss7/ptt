@@ -15,19 +15,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400");
-
-* {
-  font-family: Roboto, sans-serif;
-}
-
-body {
-  background-color: #f8bbd0;
-}
-
-#app {
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss" scoped>
+  @import './css/App.scss';
 </style>
