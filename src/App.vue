@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="page">
     <Form />
   </div>
 </template>
@@ -15,6 +15,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   @import './css/App.scss';
 </style>

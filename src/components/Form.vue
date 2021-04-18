@@ -10,7 +10,7 @@
         <Button
             type="submit"
             label="Przelicz"
-            color="lightGrey"
+            color="secondary"
             @click="count"
         />
     </div>
@@ -59,8 +59,8 @@ export default {
     max-width: 40vw;
     height: 15vh;
     padding: 2vw;
-    border: 1px solid rgb(165, 165, 165);
+    border: 1px solid rgba(0,0,0,.4);
     box-shadow: 2px 1px 0.4em rgba(128, 128, 128, 0.6);
-    background-color: $secondary;
+    background-color: whitesmoke;
 }
 </style>

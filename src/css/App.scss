@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400");
 @import "./variables.scss";
 
-* {
-  font-family: Roboto, sans-serif;
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-#app {
-  margin-top: 60px;
+.page {
+  height: 100vh;
   background-color: $primary;
+  padding: 10px;
+}
+
+* {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
 }
